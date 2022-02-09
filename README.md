@@ -15,9 +15,7 @@
 ### Commands 🛠
 #### For all in group
 - `/play` - reply to youtube url or song file to play song
-- `/vplay` - reply to youtube url or song file to play song
-- `/song <song name>` - download songs you want quickly
-- `/search <query>` - search videos on youtube with details
+- `/vplay` - reply to youtube url or song file to play video
 #### Admins only
 - `/pause` - pause song play
 - `/resume` - resume song play
