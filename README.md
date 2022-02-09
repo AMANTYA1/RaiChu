@@ -35,7 +35,7 @@
 
 
 <h2 align="center">
-   Metode Deploy
+   Deploy
 </h2>
 
 <p align="center">
