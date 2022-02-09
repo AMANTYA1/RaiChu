@@ -44,18 +44,13 @@
 <a href="https://dashboard.heroku.com/new?template=https://github.com/AMANTYA1/RaiChu-music"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
 ## Credits
 - callmusic 
-- Veez
 - PyTgCalls
 
 #### Special Credits
-- [Subhanahu](): (https://t.me/Shubhanshutya)
+- [Subhanahu](https://t.me/Shubhanshutya)
 - [Sammy](https://t.me/OpFriDay)
 - [Abhi](https://t.me/VEXERA_MUSICS)
 - [Rock](https://t.me/ROCKSTAR_XDD)
-
-> This project exists thanks to these awesome developers and their codes and contributions.
-> And credits goes to all who supported, all who helped and API & environmental requirement package devs and all projects helped in making this project.
-> Special thanks to you for using bot
 
 ### Support & Updates 
 <a href="https://t.me/PmPermit"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/BotDuniya"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
