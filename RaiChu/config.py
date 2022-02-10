@@ -21,10 +21,10 @@ BOT_USERNAME = getenv("BOT_USERNAME")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "null")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1920507972")
 
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/levina-lab/video-stream")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AMANTYA1/RaiChu-music")
 IMG_1 = getenv("IMG_1", "https://telegra.ph/file/d6f92c979ad96b2031cba.png")
 IMG_2 = getenv("IMG_2", "https://telegra.ph/file/6213d2673486beca02967.png")
 IMG_3 = getenv("IMG_3", "https://telegra.ph/file/f02efde766160d3ff52d6.png")
