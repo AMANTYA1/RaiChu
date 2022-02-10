@@ -23,7 +23,6 @@ GROUP_SUPPORT = getenv("GROUP_SUPPORT")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS")
 
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
 
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/levina-lab/video-stream")
 IMG_1 = getenv("IMG_1", "https://telegra.ph/file/d6f92c979ad96b2031cba.png")
@@ -32,5 +31,7 @@ IMG_3 = getenv("IMG_3", "https://telegra.ph/file/f02efde766160d3ff52d6.png")
 IMG_4 = getenv("IMG_4", "https://telegra.ph/file/be5f551acb116292d15ec.png")
 IMG_5 = getenv("IMG_5", "https://telegra.ph/file/c3401a572375b569138c3.png")
 IMG_6 = getenv("IMG_6", "https://telegra.ph/file/d8f8fc1de9110b93ca94c.jpg")
+
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "70"))
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
