@@ -140,8 +140,8 @@ async def play(c: Client, m: Message):
                       InlineKeyboardButton('⏭️', callback_data="skip"),
                       InlineKeyboardButton("▶️", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton("• Group", url=f"https://t.me/PmPermit"),
-                      InlineKeyboardButton("• Devloper", url=f"https://t.me/FriDayNetwork"),
+                      InlineKeyboardButton("• Group", url=f"https://t.me/iam_your_heart4"),
+                      InlineKeyboardButton("• Devloper", url=f"https://t.me/iam_your_heart4"),
                   ],[
                       InlineKeyboardButton("🗑", callback_data="cls")],
                   ]
