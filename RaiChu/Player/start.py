@@ -33,25 +33,25 @@ async def _human_time_duration(seconds):
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
         await message.reply_text(
-        f"""**I ᴀᴍ 𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖 𝙈𝙪𝙨𝙞𝙘   
-ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖](https://t.me/BotDuniya)
+        f"""**I ᴀᴍ BROKEN Mr z 𝙈𝙪𝙨𝙞𝙘   
+ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖](https://t.me/iam_your_heart4)
 Thanks to add me 😇**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Handle", url="https://t.me/FriDayNetwork"
+                        "Handle", url="https://t.me/IAm_your_heart4"
                     ),
                     InlineKeyboardButton(
                         "𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐋𝐢𝐬𝐭🧰", url="https://telegra.ph/%F0%9D%98%BE%F0%9D%99%A4%F0%9D%99%A2%F0%9D%99%A2%F0%9D%99%96%F0%9D%99%A3%F0%9D%99%99%F0%9D%99%A8-%F0%9D%99%81%F0%9D%99%A4%F0%9D%99%A7-%F0%9D%98%BD%F0%9D%99%A4%F0%9D%99%A9-%F0%9D%98%BF%F0%9D%99%AA%F0%9D%99%A3%F0%9D%99%9E%F0%9D%99%AE%F0%9D%99%96-%F0%9D%98%BD%F0%9D%99%8A%F0%9D%99%8F-02-08-3"
                     )
                   ],[
                     InlineKeyboardButton(
-                       " 𝐒𝐮𝐩𝐩𝐨𝐫𝐭👿", url="https://t.me/PmPermit"
+                       " 𝐒𝐮𝐩𝐩𝐨𝐫𝐭👿", url="https://t.me/iam_your_heart4"
                     ),
                     InlineKeyboardButton(
-                        "𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url="https://t.me/BotDuniya"
+                        "𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url="https://t.me/Iam_your_heart4"
                     )
                 ],[
                     InlineKeyboardButton(
