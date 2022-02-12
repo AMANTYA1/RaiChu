@@ -46,10 +46,9 @@
 - PyTgCalls
 
 #### Special Credits
-- [Subhanahu](https://t.me/Shubhanshutya)
-- [Sammy](https://t.me/OpFriDay)
-- [Abhi](https://t.me/VEXERA_MUSICS)
-- [Rock](https://t.me/ROCKSTAR_XDD)
+- [mrz](https://t.me/brokenmrz)
+- [broken](https://t.me/brokenmrzmusic)
+- [mrz](https://t.me/iam_your_heart4)
 
 ### Support & Updates 
-<a href="https://t.me/PmPermit"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/BotDuniya"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/iam_your_heart4"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/iam_your_heart4"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
