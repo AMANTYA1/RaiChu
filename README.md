@@ -1,4 +1,4 @@
-<h2 align="centre">Bot duniya Music Player</h2>
+<h2 align="centre">Broken Mr z Music Player</h2>
 
 <p align="center">
   <img src="https://telegra.ph/file/55202a2a5dd038bdbebea.jpg">
