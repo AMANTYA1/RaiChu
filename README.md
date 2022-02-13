@@ -48,7 +48,7 @@
 #### Special Credits
 - [Subhanahu](https://t.me/Shubhanshutya)
 - [Sammy](https://t.me/OpFriDay)
-- [Abhi](https://t.me/VEXERA_MUSICS)
+- [Abhi](https://t.me/VEXERA_MUSIC)
 - [Rock](https://t.me/ROCKSTAR_XDD)
 
 ### Support & Updates 
