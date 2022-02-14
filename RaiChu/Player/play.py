@@ -1,4 +1,4 @@
-# © TeamRaichu
+# © 𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖
 import io
 from os import path
 from typing import Callable
@@ -25,7 +25,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pytgcalls import StreamType
 from pytgcalls.types.input_stream import AudioPiped
 from youtubesearchpython import VideosSearch
-import youtube_dl
+import yt_dlp
 
 FOREGROUND_IMG = [
     "Process/ImageFont/Red.png",
@@ -38,7 +38,7 @@ FOREGROUND_IMG = [
     "Process/ImageFont/Purple.png",
 ]
 
-def ytsearch(query: str):
+def ytsearch(query):
     try:
         search = VideosSearch(query, limit=1).result()
         data = search["result"][0]
@@ -57,7 +57,6 @@ async def ytdl(format: str, link: str):
     if stdout:
         return 1, stdout.split("\n")[0]
     return 0, stderr
-
 
 chat_id = None
 DISABLED_GROUPS = []
@@ -137,7 +136,7 @@ async def play(c: Client, m: Message):
                   [[
                       InlineKeyboardButton("⏹", callback_data="cbstop"),
                       InlineKeyboardButton("⏸", callback_data="cbpause"),
-                      InlineKeyboardButton('⏭️', callback_data="skip"),
+                      InlineKeyboardButton("⏭️", "skip"),
                       InlineKeyboardButton("▶️", callback_data="cbresume"),
                   ],[
                       InlineKeyboardButton("• Group", url=f"https://t.me/PmPermit"),
@@ -281,7 +280,7 @@ async def play(c: Client, m: Message):
                 gcname = m.chat.title
                 ctitle = await CHAT_TITLE(gcname)
                 image = await generate_cover(thumbnail, title, userid, ctitle)
-                format = "bestaudio[ext=m4a]"
+                format = "bestaudio"
                 abhi, ytlink = await ytdl(format, url)
                 if abhi == 0:
                     await suhu.edit(f"💬 yt-dl issues detected\n\n» `{ytlink}`")
@@ -300,7 +299,7 @@ async def play(c: Client, m: Message):
                     else:
                         try:
                             await suhu.edit(
-                            f"**Downloader**\n\n**Title:** {title}:\n\n Percentage 0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
+                            f"**𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                             await call_py.join_group_call(
                                 chat_id,
