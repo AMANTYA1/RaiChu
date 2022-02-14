@@ -2,9 +2,10 @@ tgcrypto
 asyncio
 ffmpeg-python
 py-tgcalls
-git+https://github.com/pyrogram/pyrogram@master
+pyrogram
 youtube-search-python
-git+https://github.com/ytdl-org/youtube-dl@master
+yt_dlp
+youtube_dl
 youtube-search
 yt-dlp
 python-dotenv
@@ -19,4 +20,3 @@ motor
 psutil
 future
 wget
-youtube-dl==2021.12.17
