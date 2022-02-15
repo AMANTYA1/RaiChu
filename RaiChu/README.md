@@ -1,9 +1,8 @@
 # Credit
 
-👉[Shubhanshu](https://t.me/Shubhanshutya)
+👉[💘✨★✰𝙒𝙚𝙞 𝙒𝙪𝙭𝙞𝙖𝙣✰★✨💘](https://t.me/itzmeWeiWuxian)
 
-👉[Friday](https://t.me/OpFriDa)
+👉[💘💞✰★𝙆𝙖𝙣𝙣𝙞 𝙍𝙖𝙖𝙨𝙞 𝙆𝙖𝙖𝙧𝙖𝙣 𝘿𝙖★✰💞💘](https://t.me/itzmekanniraasi)
 
-👉[Abhi](https://t.me/VEXERA_MUSICS)
 
-👉[Rockstar](https://t.me/ROCKSTAR_XDD)
+
