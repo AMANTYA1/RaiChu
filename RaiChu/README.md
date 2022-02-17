@@ -1,9 +1,9 @@
 # Credit
 
-👉[Shubhanshu](https://t.me/Shubhanshutya)
+👉[Shubhanshu](https://t.me/Shubhanshuty)
 
-👉[Friday](https://t.me/OpFriDa)
+👉[Friday](https://t.me/OpFriD)
 
-👉[Abhi](https://t.me/VEXERA_MUSICS)
+👉[Abhi](https://t.me/VEXERA_MUSIC)
 
-👉[Rockstar](https://t.me/ROCKSTAR_XDD)
+👉[Rockstar](https://t.me/ROCKSTAR)
