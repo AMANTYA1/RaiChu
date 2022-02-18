@@ -25,7 +25,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pytgcalls import StreamType
 from pytgcalls.types.input_stream import AudioPiped
 from youtubesearchpython import VideosSearch
-import youtube_dl
+from youtube_dl import YoutubeDL
+
 
 FOREGROUND_IMG = [
     "Process/ImageFont/Red.png",
