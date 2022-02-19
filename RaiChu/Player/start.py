@@ -33,30 +33,32 @@ async def _human_time_duration(seconds):
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
         await message.reply_text(
-        f"""**I ᴀᴍ 𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖 𝙈𝙪𝙨𝙞𝙘   
-ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖](https://t.me/BotDuniya)
-Thanks to add me 😇**
+        f"""** I ᴀᴍ Dᴀʀᴋ Mᴜsɪᴄ Bᴏᴛ Wɪᴛʜ Mᴏsᴛ Fᴀɴᴛᴀsᴛɪᴄ Fᴇᴀᴛᴜʀᴇs
+Cʀᴇᴀᴛᴏʀ[💘💞✰★𝙆𝙖𝙣𝙣𝙞 𝙍𝙖𝙖𝙨𝙞 𝙆𝙖𝙖𝙧𝙖𝙣 𝘿𝙖★✰💞💘](https://t.me/itzmekanniraasi)
+ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [💘✨★✰𝙒𝙚𝙞 𝙒𝙪𝙭𝙞𝙖𝙣✰★✨💘](https://t.me/itzmeWeiWuxian) Cʀᴇᴀᴛᴇᴅ ғᴏʀ ʜᴇʟᴘ ʏᴏᴜ Iɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs 
+Iғ ʏᴏᴜ ʜᴀᴅ ᴀɴʏ ᴅᴏᴜʙᴛs Asᴋ ɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ
+Tʜᴀɴᴋs ᴛᴏ ᴀᴅᴅɪɴɢ ᴍᴇ 😇**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Handle", url="https://t.me/FriDayNetwork"
+                        "Cʀᴇᴀᴛᴏʀ", url="https://t.me/itzmekanniraasi"
                     ),
                     InlineKeyboardButton(
-                        "𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐋𝐢𝐬𝐭🧰", url="https://telegra.ph/%F0%9D%98%BE%F0%9D%99%A4%F0%9D%99%A2%F0%9D%99%A2%F0%9D%99%96%F0%9D%99%A3%F0%9D%99%99%F0%9D%99%A8-%F0%9D%99%81%F0%9D%99%A4%F0%9D%99%A7-%F0%9D%98%BD%F0%9D%99%A4%F0%9D%99%A9-%F0%9D%98%BF%F0%9D%99%AA%F0%9D%99%A3%F0%9D%99%9E%F0%9D%99%AE%F0%9D%99%96-%F0%9D%98%BD%F0%9D%99%8A%F0%9D%99%8F-02-08-3"
+                        "Cᴏᴍᴍᴀɴᴅ ʟɪsᴛ🧰", url="https://t.me/telegra.ph/file/0c652ec7d53ebba62ab27.jpg"
                     )
                   ],[
                     InlineKeyboardButton(
-                       " 𝐒𝐮𝐩𝐩𝐨𝐫𝐭👿", url="https://t.me/PmPermit"
+                       " Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/itzmedarkswordsupportgroup"
                     ),
                     InlineKeyboardButton(
-                        "𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url="https://t.me/BotDuniya"
+                        "Uᴘᴅᴀᴛᴇs", url="https://t.me/itzmedarkswordsupportchannel
                     )
                 ],[
                     InlineKeyboardButton(
                         "➕ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        url=f"https://t.me/{Itzmedarkswordbot}?startgroup=true",
                     )
                 ]
             ]
