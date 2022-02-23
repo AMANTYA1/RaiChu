@@ -39,14 +39,14 @@ FOREGROUND_IMG = [
     "Process/ImageFont/Purple.png",
 ]
 
-def ytsearch(query):
+def ytsearch(query: str):
     try:
         search = VideosSearch(query, limit=1).result()
         data = search["result"][0]
         songname = data["title"]
         url = data["link"]
         duration = data["duration"]
-        thumbnail = f"https://i.ytimg.com/vi/{data['id']}/hqdefault.jpg"
+        thumbnail = data["thumbnails"][0]["url"]
         return [songname, url, duration, thumbnail]
     except Exception as e:
         print(e)
@@ -56,7 +56,7 @@ def ytsearch(query):
 async def ytdl(format: str, link: str):
     stdout, stderr = await bash(f'youtube-dl -g -f "{format}" {link}')
     if stdout:
-        return 1, stdout.split("\n")[0]
+        return 1, stdout
     return 0, stderr
 
 chat_id = None
