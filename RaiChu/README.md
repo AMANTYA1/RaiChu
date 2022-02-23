@@ -6,4 +6,3 @@
 
 👉[Abhi](https://t.me/VEXERA_MUSICS)
 
-👉[Rockstar](https://t.me/ROCKSTAR_XDD)
