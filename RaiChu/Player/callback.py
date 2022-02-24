@@ -1,5 +1,3 @@
-# © NOINOI MUSIC @CFC_BOT_SUPPORT
-
 from Process.queues import QUEUE
 from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
@@ -41,7 +39,7 @@ async def cbguides(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""❓ **Basic Guide for using this bot:**
         
-⊙ https://telegra.ph/file/a671532c23687e6fcc431.mp4
+⊙ https://telegra.ph/file/9fa805e33e58bac5127a1.mp4
 
 1.) **First, add me to your group.**
 2.) **Then, promote me as administrator and give all permissions except Anonymous Admin.**
