@@ -1,7 +1,7 @@
-<h2 align="centre">Bot duniya Music Player</h2>
+<h2 align="centre">KIGO Music Player</h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/55202a2a5dd038bdbebea.jpg">
+  <img src="https://telegra.ph/file/4c0f3f6c07b82eda1cee0.jpg">
 </p>
 
 <h3>Requirements 📝</h3>
@@ -51,4 +51,4 @@
 - [Abhi](https://t.me/VEXERA_MUSICS)
 
 ### Support & Updates 
-<a href="https://t.me/PmPermit"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/BotDuniya"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/OmFoXD"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/kigo_omfo"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
