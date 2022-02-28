@@ -25,7 +25,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pytgcalls import StreamType
 from pytgcalls.types.input_stream import AudioPiped
 from youtubesearchpython import VideosSearch
-import yt-dlp
+import yt_dlp
 from yt_dlp import YoutubeDL
 
 FOREGROUND_IMG = [
@@ -54,7 +54,7 @@ def ytsearch(query: str):
 
 
 async def ytdl(format: str, link: str):
-    stdout, stderr = await bash(f'yt-dlp -g -f "{format}" {link}')
+    stdout, stderr = await bash(f'yt-dlp -g -f "best[height<=?720][width<=?1280]" {link}')
     if stdout:
         return 1, stdout
     return 0, stderr
@@ -281,8 +281,7 @@ async def play(c: Client, m: Message):
                 gcname = m.chat.title
                 ctitle = await CHAT_TITLE(gcname)
                 image = await generate_cover(thumbnail, title, userid, ctitle)
-                format = "bestaudio"
-                abhi, ytlink = await ytdl(format, url)
+                abhi, ytlink = await ytdl(url)
                 if abhi == 0:
                     await suhu.edit(f"💬 yt-dl issues detected\n\n» `{ytlink}`")
                 else:
