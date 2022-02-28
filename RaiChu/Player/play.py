@@ -54,7 +54,7 @@ def ytsearch(query: str):
 
 
 async def ytdl(format: str, link: str):
-    stdout, stderr = await bash(f'youtube-dl -g -f "{format}" {link}')
+    stdout, stderr = await bash(f'yt-dlp -g -f "{format}" {link}')
     if stdout:
         return 1, stdout
     return 0, stderr
@@ -137,7 +137,7 @@ async def play(c: Client, m: Message):
                   [[
                       InlineKeyboardButton("⏹", callback_data="cbstop"),
                       InlineKeyboardButton("⏸", callback_data="cbpause"),
-                      InlineKeyboardButton("⏭️", "skip"),
+                      InlineKeyboardButton("⏭️", callback_data="skip"),
                       InlineKeyboardButton("▶️", callback_data="cbresume"),
                   ],[
                       InlineKeyboardButton("• Group", url=f"https://t.me/kigo_omfo"),
