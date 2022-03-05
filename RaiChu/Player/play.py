@@ -25,8 +25,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pytgcalls import StreamType
 from pytgcalls.types.input_stream import AudioPiped
 from youtubesearchpython import VideosSearch
-import yt_dlp
-from yt_dlp import YoutubeDL
+import youtube_dl
+import youtube_dl
 
 FOREGROUND_IMG = [
     "Process/ImageFont/Red.png",
@@ -39,14 +39,14 @@ FOREGROUND_IMG = [
     "Process/ImageFont/Purple.png",
 ]
 
-def ytsearch(query: str):
+def ytsearch(query):
     try:
         search = VideosSearch(query, limit=1).result()
         data = search["result"][0]
         songname = data["title"]
         url = data["link"]
         duration = data["duration"]
-        thumbnail = data["thumbnails"][0]["url"]
+        thumbnail = f"https://i.ytimg.com/vi/{data['id']}/hqdefault.jpg"
         return [songname, url, duration, thumbnail]
     except Exception as e:
         print(e)
@@ -54,9 +54,9 @@ def ytsearch(query: str):
 
 
 async def ytdl(format: str, link: str):
-    stdout, stderr = await bash(f'yt-dlp -g -f "best[height<=?720][width<=?1280]" {link}')
+    stdout, stderr = await bash(f'youtube-dl -g -f "{format}" {link}')
     if stdout:
-        return 1, stdout
+        return 1, stdout.split("\n")[0]
     return 0, stderr
 
 chat_id = None
@@ -137,11 +137,11 @@ async def play(c: Client, m: Message):
                   [[
                       InlineKeyboardButton("⏹", callback_data="cbstop"),
                       InlineKeyboardButton("⏸", callback_data="cbpause"),
-                      InlineKeyboardButton("⏭️", callback_data="skip"),
+                      InlineKeyboardButton("⏭️", "skip"),
                       InlineKeyboardButton("▶️", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton("• Group", url=f"https://t.me/kigo_omfo"),
-                      InlineKeyboardButton("• Devloper", url=f"https://t.me/OmFoXD"),
+                      InlineKeyboardButton("• Group", url=f"https://t.me/OmFoXD"),
+                      InlineKeyboardButton("• Devloper", url=f"https://t.me/kigo_omfo"),
                   ],[
                       InlineKeyboardButton("🗑", callback_data="cls")],
                   ]
@@ -265,7 +265,7 @@ async def play(c: Client, m: Message):
             )
         else:
             suhu = await m.reply_text(
-        f"**Downloading**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
+        f"**𝙆𝙄𝙂𝙊 Downloading**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
     )
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
@@ -281,7 +281,8 @@ async def play(c: Client, m: Message):
                 gcname = m.chat.title
                 ctitle = await CHAT_TITLE(gcname)
                 image = await generate_cover(thumbnail, title, userid, ctitle)
-                abhi, ytlink = await ytdl(url)
+                format = "bestaudio"
+                abhi, ytlink = await ytdl(format, url)
                 if abhi == 0:
                     await suhu.edit(f"💬 yt-dl issues detected\n\n» `{ytlink}`")
                 else:
@@ -299,7 +300,7 @@ async def play(c: Client, m: Message):
                     else:
                         try:
                             await suhu.edit(
-                            f"**𝙆𝙄𝙂𝙊 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**𝙉𝙪𝙡𝙡 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                             await call_py.join_group_call(
                                 chat_id,
