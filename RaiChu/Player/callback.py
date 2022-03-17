@@ -17,14 +17,14 @@ from RaiChu.config import (
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""**I ᴀᴍ 𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖 𝙈𝙪𝙨𝙞𝙘   
-ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖](https://t.me/BotDuniya)
+ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [KIGO](https://t.me/INSANE_BOTS)
 Thanks to add me 😇**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Handle", url="https://t.me/FriDayNetwork"
+                        "Handle", url="https://t.me/Shubhanshutya"
                     ),
                     InlineKeyboardButton(
                         "𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐋𝐢𝐬𝐭", callback_data="cbbasic"
@@ -34,10 +34,10 @@ Thanks to add me 😇**
                     ),
                   ],[
                     InlineKeyboardButton(
-                       " 𝐒𝐮𝐩𝐩𝐨𝐫𝐭👿", url="https://t.me/PmPermit"
+                       " 𝐒𝐮𝐩𝐩𝐨𝐫𝐭👿", url="https://t.me/godzilla_chatting"
                     ),
                     InlineKeyboardButton(
-                        "𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url="https://t.me/BotDuniya"
+                        "𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url="https://t.me/INSANE_BOTS"
                     )
                 ],[
                     InlineKeyboardButton(
@@ -69,7 +69,7 @@ async def cbguides(_, query: CallbackQuery):
 
 💡 **If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}**
 
-**✨ ᴘᴏᴡᴇʀᴅ ʙʏ  Tᴇᴀᴍ DᴇCᴏᴅᴇ** """,
+**✨ ᴘᴏᴡᴇʀᴅ ʙʏ  Kɪɢᴏ** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ʙ ᴀ ᴄ ᴋ", callback_data="cbstart")]]
         ),
@@ -83,7 +83,7 @@ async def cbcmds(_, query: CallbackQuery):
 
 » **press the button below to read the explanation and see the list of available commands !**
 
-**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!** """,
+**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Kɪɢᴏ!** """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -114,7 +114,7 @@ async def cbbasic(_, query: CallbackQuery):
 
 🙋 » /end - to end play song in vc
 
- **✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!** """,
+ **✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Kɪɢᴏ!** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")]]
         ),
@@ -137,7 +137,7 @@ async def cbadmin(_, query: CallbackQuery):
 ➯ /userbotjoin - invite the userbot to join group
 ➯ /userbotleave - order userbot to leave from group
 
-**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!** """,
+**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Kɪɢᴏ!** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -155,7 +155,7 @@ async def cbsudo(_, query: CallbackQuery):
 ➯ /restart - restart your bot
 ➯ /leaveall - order userbot to leave from all group
 
-**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!** """,
+**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Kɪɢᴏ!** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -196,7 +196,7 @@ async def cbsetup(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""**Hello !**
 » **press the button below to read the explanation and see the help commands !**
-**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!**""",
+**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Kɪɢᴏ!**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -220,7 +220,7 @@ async def noiwel(_, query: CallbackQuery):
 
 ➯ /resetwelcome for reset welcome message.
 
-**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!** """,
+**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Kɪɢᴏ!** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbsetup")]]
         ),
@@ -232,7 +232,7 @@ async def noilyric(_, query: CallbackQuery):
 
 ➯ /lyric ( song name ) for the get lyric of song
 
-**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!** """,
+**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Kɪɢᴏ!** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbsetup")]]
         ),
@@ -245,7 +245,7 @@ async def noivoice(_, query: CallbackQuery):
 
 ➯ /tts fot get voice from text message
 
-**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!** """,
+**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Kɪɢᴏ!** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbsetup")]]
         ),
