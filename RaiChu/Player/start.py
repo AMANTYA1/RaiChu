@@ -34,14 +34,14 @@ async def _human_time_duration(seconds):
 async def start(_, message: Message):
         await message.reply_text(
         f"""**I ᴀᴍ 𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖 𝙈𝙪𝙨𝙞𝙘   
-ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖](https://t.me/BotDuniya)
+ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [KIGO](https://t.me/INSANE_BOTS)
 Thanks to add me 😇**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Handle", url="https://t.me/FriDayNetwork"
+                        "Handle", url="https://t.me/Shubhanshutya"
                     ),
                     InlineKeyboardButton(
                         "𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐋𝐢𝐬𝐭", callback_data="cbbasic"
@@ -51,10 +51,10 @@ Thanks to add me 😇**
                     ),
                   ],[
                     InlineKeyboardButton(
-                       " 𝐒𝐮𝐩𝐩𝐨𝐫𝐭👿", url="https://t.me/OmFoXD"
+                       " 𝐒𝐮𝐩𝐩𝐨𝐫𝐭👿", url="https://t.me/godzilla_chatting"
                     ),
                     InlineKeyboardButton(
-                        "𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url="https://t.me/kigo_omfo"
+                        "𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url="https://t.me/INSANE_BOTS"
                     )
                 ],[
                     InlineKeyboardButton(
