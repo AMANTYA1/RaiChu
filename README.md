@@ -48,7 +48,7 @@
 #### Special Credits
 - [Subhanahu](https://t.me/Shubhanshutya)
 - [Sammy](https://t.me/OpFriDay)
-- [Abhi](https://t.me/VEXERA_MUSICS)
+- [Abhi](https://t.me/ItZ_Nobita_xD)
 
 ### Support & Updates 🇮🇳
 <a href="https://t.me/OmFoXD"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/kigo_omfo"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
