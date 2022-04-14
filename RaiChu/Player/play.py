@@ -210,7 +210,7 @@ async def play(c: Client, m: Message):
             if replied.audio:
                 if replied.audio.title:
                     songname = replied.audio.title[:70]
-                else:
+                else: of
                     if replied.audio.file_name:
                         songname = replied.audio.file_name[:70]
                     else:
