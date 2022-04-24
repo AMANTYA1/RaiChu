@@ -13,7 +13,7 @@
 - [2nd Telegram Account](https://telegram.org/blog/themes-accounts#multiple-accounts) (needed for userbot)
 
 ### Commands 🛠
-#### For all in group
+#### For all in groups
 - `/play` - reply to youtube url or song file to play song
 - `/vplay` - reply to youtube url or song file to play video
 #### Admins only
